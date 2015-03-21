@@ -10,8 +10,8 @@ shutter = 0
 # motor ports
 
 # servo positions
-shutterOpen = 400
-shutterClosed = 1300
+shutterOpen = 401
+shutterClosed = 1301
 
 #camera
 blobSize = 2000

@@ -20,7 +20,7 @@ def init() :
     print "starting FrankenBot"
     link.enable_servos()
     link.camera_open()
-    time.sleep(1.0)
+    time.sleep(5.0)
     servo.moveShutter( c.shutterOpen )
     print "Initialized"
     servo.moveShutter( c.shutterClosed )
