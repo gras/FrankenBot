@@ -31,7 +31,7 @@ def testCamera():
         link.camera_update()
         area = link.get_object_area(c.chanRed,0)
         print i, area
-        
+        #test chanGreen
 
 
 def shutdown():

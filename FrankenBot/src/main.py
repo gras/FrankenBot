@@ -10,6 +10,7 @@ def main() :
     act.init()
     act.testCamera()
     act.shutdown()
+    
 
 
 if __name__ == "__main__":
