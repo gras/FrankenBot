@@ -7,6 +7,7 @@ Created on Mar 21, 2015
 import os
 import sys
 
+
 import kovan as link
 
 import constants as c 
@@ -27,7 +28,7 @@ def init() :
 
 def testCamera():
     servo.moveShutter( c.shutterOpen )
-    for i in range(10):
+    for i in range(5):
         link.camera_update()
         area = link.get_object_area(c.chanRed,0)
         print i, area
@@ -39,9 +40,6 @@ def shutdown():
     link.camera_close()
     link.ao()
     time.sleep(1.0)
-
-
-    
 
     
 def DEBUG() :
