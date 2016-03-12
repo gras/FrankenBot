@@ -11,7 +11,7 @@ def main() :
     act.testCamera()
     act.shutdown()
     
-
+# main
 
 if __name__ == "__main__":
     main()
